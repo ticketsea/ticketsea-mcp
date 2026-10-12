@@ -85,7 +85,7 @@ Add this to `~/.codeium/windsurf/mcp_config.json`:
 
 ### Any other client
 
-Point it at `https://ticketsea.com/mcp` using Streamable HTTP and no authentication. The server is stateless and answers with JSON (no SSE stream or session ID). Supported protocol versions: 2025-11-25, 2025-06-18 and 2025-03-26. Give your client an identifying User-Agent, such as `YourApp/1.0`.
+Point it at `https://ticketsea.com/mcp` using Streamable HTTP and no authentication. The server is stateless and answers with JSON (no SSE stream or session ID). Supported protocol versions: 2026-07-28 (no `initialize`; `server/discover` lists versions and capabilities) and 2025-11-25, 2025-06-18 and 2025-03-26 (with `initialize`). Give your client an identifying User-Agent, such as `YourApp/1.0`.
 
 ## Tools
 
