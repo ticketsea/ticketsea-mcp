@@ -1,0 +1,12 @@
+{
+  "name": "ticketsea",
+  "version": "1.4.0",
+  "description": "Find concerts, sports, theatre and live events worldwide on TicketSea (ticketsea.com), with each seller's ticket link. Some ticket links are affiliate links.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "ticketsea": {
+      "httpUrl": "https://ticketsea.com/mcp",
+      "timeout": 30000
+    }
+  }
+}
