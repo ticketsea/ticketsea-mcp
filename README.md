@@ -98,6 +98,7 @@ All tools are read-only (`readOnlyHint: true`).
 | `get_event` | One event's current details: date, local time, venue, sale state, cancellation and any published price range. |
 | `get_ticket_links` | Every seller for one event: the official ticketing partner first, then resale marketplaces such as TickPick and TicketNetwork. |
 | `prepare_event_visit` | Tickets for one event together with the venue address, suggested stay dates and search links for hotels, parking, directions and things to do. |
+| `get_ticket_prices` | Daily ticket price figures from TickPick's lowest listed all-in prices: the get-in price index (overall or for a category such as NFL or concerts) against a week earlier, the week's biggest drops and rises, the priciest events, or one event's lowest price by day. Credit: "TicketSea analysis of TickPick listings". |
 | `get_service_status` | How current TicketSea's listings are, by country. |
 
 ## Prompts
@@ -109,6 +110,7 @@ All tools are read-only (`readOnlyHint: true`).
 | `artist_tour_dates` | `artist`, optional `city` | An artist's or comedian's upcoming shows, with ticket links. |
 | `whats_on_at_venue` | `venue`, optional `month` | Upcoming events at one venue, in date order, with ticket links. |
 | `compare_ticket_sellers` | `event`, optional `city` and `date` | Every seller with tickets for one event: the official seller first, then resale marketplaces. |
+| `ticket_price_trends` | `subject` | Whether ticket prices for an event, team, artist or category are rising or falling, from TicketSea's daily price data. |
 | `plan_event_trip` | `event`, optional `city` | Tickets for one event together with the venue address, stay dates and links for hotels, parking and directions. |
 
 ## About the links

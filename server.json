@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.ticketsea/ticketsea",
   "title": "TicketSea",
-  "description": "Find live events worldwide and link each seller's tickets. Some ticket links are affiliate links.",
-  "version": "1.4.0",
+  "description": "Find live events, ticket price trends and each seller's tickets. Some links are affiliate links.",
+  "version": "1.5.0",
   "websiteUrl": "https://ticketsea.com/",
   "icons": [
     {
